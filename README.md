@@ -12,9 +12,9 @@
 ## 📂 Структура репозитория
 
 ```  
-├── docs/                 # 📄 Отчет о проделанной работе
-├──seletest-api/          # 📄 Описание и условия тестового задания
-└── seletest-api-task/    # 📌 Реализованное тестовое задание
+├── docs/                  # 📄 Отчет о проделанной работе
+├── seletest-api/          # 📄 Описание и условия тестового задания
+└── seletest-api-task/     # 📌 Реализованное тестовое задание
 ```
 ---
 
@@ -63,6 +63,7 @@ docker compose up --build
 Готовая коллекция запросов для тестирования API:
 
 [Open Postman Collection](https://elements.getpostman.com/redirect?entityId=39888884-c01a6c52-7451-4b7d-8269-c541b826a19e&entityType=collection)
+
 
 
 
