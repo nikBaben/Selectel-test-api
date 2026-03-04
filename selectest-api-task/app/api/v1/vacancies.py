@@ -22,16 +22,12 @@ router = APIRouter(prefix="/vacancies", tags=["vacancies"])
 async def list_vacancies_endpoint(
     timetable_mode_name: Optional[str] = None,
     city: Optional[str] = None,
-    page: int = 1,
-    page_size: int = 20,
     session: AsyncSession = Depends(get_session),
 ):
     vacancies = await list_vacancies(
         session,
         timetable_mode_name,
-        city,
-        page,
-        page_size,
+        city
     )
     return [VacancyRead.model_validate(v) for v in vacancies]
 
@@ -56,8 +52,7 @@ async def create_vacancy_endpoint(
                 status_code=status.HTTP_409_CONFLICT,
                 detail="Vacancy with external_id already exists"
             )
-    vacancy = await create_vacancy(session, payload)
-    return  VacancyRead.model_validate(vacancy)
+    return  VacancyRead.model_validate( await create_vacancy(session, payload))
 
 
 @router.put("/{vacancy_id}", response_model=VacancyRead)
