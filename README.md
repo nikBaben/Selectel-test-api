@@ -8,9 +8,11 @@
 ---
 
 # 📂 Структура репозитория
-├── seletest-api-task/ # 📌 Реализованное тестовое задание
-└── seletest-api/ # 📄 Описание и условия тестового задания
 
+```
+├── seletest-api-task/   # 📌 Реализованное тестовое задание
+└── seletest-api/        # 📄 Описание и условия тестового задания
+```
 ---
 
 # ⚙️ Стек технологий
@@ -58,3 +60,4 @@ docker compose up --build
 Готовая коллекция запросов для тестирования API:
 
 [Open Postman Collection](https://elements.getpostman.com/redirect?entityId=39888884-c01a6c52-7451-4b7d-8269-c541b826a19e&entityType=collection)
+
