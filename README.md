@@ -41,7 +41,7 @@
 - защита от дублирования
 
 
-## Запуск проекта
+### Запуск проекта
 
 ### 1. Клонировать репозиторий
 ### 2. Запустить через Docker
@@ -63,6 +63,7 @@ docker compose up --build
 Готовая коллекция запросов для тестирования API:
 
 [Open Postman Collection](https://elements.getpostman.com/redirect?entityId=39888884-c01a6c52-7451-4b7d-8269-c541b826a19e&entityType=collection)
+
 
 
 
