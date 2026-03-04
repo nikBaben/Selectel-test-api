@@ -1,4 +1,6 @@
-# Selectel Test API
+<p align="center">
+  <img src="docs/Selectel-logo.png" width="300">
+</p>
 
 Тестовое задание для стажировки **Python Backend Developer** в Selectel.
 
@@ -60,5 +62,6 @@ docker compose up --build
 Готовая коллекция запросов для тестирования API:
 
 [Open Postman Collection](https://elements.getpostman.com/redirect?entityId=39888884-c01a6c52-7451-4b7d-8269-c541b826a19e&entityType=collection)
+
 
 
